@@ -1,0 +1,83 @@
+{
+  "NavigationActions": [
+    {
+      "action": "move_to",
+      "description": "Move to a specific location.",
+      "parameters": {
+        "location": "string"
+      }
+    },
+    {
+      "action": "navigate_to",
+      "description": "Move towards a detected person.",
+      "parameters": {
+        "person": "string"
+      }
+    }
+  ],
+  "ManipulationActions": [
+    {
+      "action": "grasp",
+      "description": "Grasp a specified object.",
+      "parameters": {
+        "object": "string"
+      }
+    },
+    {
+      "action": "place",
+      "description": "Place an object in a specified location.",
+      "parameters": {
+        "object": "string",
+        "location": "string"
+      }
+    },
+    {
+      "action": "pick_up",
+      "description": "Pick up an object from the ground or a surface.",
+      "parameters": {
+        "object": "string"
+      }
+    }
+  ],
+  "InteractionActions": [
+    {
+      "action": "greet",
+      "description": "Greet a specified person.",
+      "parameters": {
+        "person": "string"
+      }
+    },
+    {
+      "action": "offer",
+      "description": "Offer an object to a person.",
+      "parameters": {
+        "object": "string",
+        "person": "string"
+      }
+    },
+    {
+      "action": "ask_for_help",
+      "description": "Ask a person for assistance.",
+      "parameters": {
+        "person": "string"
+      }
+    }
+  ],
+  "PerceptionActions": [
+    {
+      "action": "scan_area",
+      "description": "Scan a specific area for objects or people.",
+      "parameters": {
+        "area": "string"
+      }
+    },
+    {
+      "action": "identify_object",
+      "description": "Identify a specific object using perception.",
+      "parameters": {
+        "object": "string"
+      }
+    }
+  ]
+}
+
